@@ -28,4 +28,8 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="vic" />
 
+<!-- Vendor pixelOS -->
+<remove-project path="vendor/aosp" />
+<project path="vendor/aosp" name="786-shaaim10/vendor_aosp" remote="github" revision="fifteen" />
+   
 </manifest>
